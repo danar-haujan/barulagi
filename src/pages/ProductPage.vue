@@ -2,13 +2,11 @@
 import ProductCard from '../components/ProductCard.vue'
  
 const daftarProduk = [
-  { id: 1, nama: 'James Boogie', harga: 75000, gambar: 
-'https://placehold.co/150' },
-  { id: 2, nama: 'Tracktop Adidas', harga: 35000, gambar: 
-'https://placehold.co/150' },
-  { id: 3, nama: 'Sepatu', harga: 120000, gambar: 
-'https://placehold.co/150' },
+  { id: 1, nama: 'Belanja', harga: 75000, gambar: '/images/mengbelanja.jpg' },
+  { id: 2, nama: 'Adalah', harga: 35000, gambar: '/images/rusidmarah.jpg' },
+  { id: 3, nama: 'Kopdes', harga: 120000, gambar: '/images/kopdes.jpg' },
 ]
+
 </script>
  
 <template>

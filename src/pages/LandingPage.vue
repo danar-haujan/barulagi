@@ -4,7 +4,7 @@
   <h2>Selamat Datang di Toko Online SMK Yadika Soreang</h2>
   <p>Temukan berbagai produk menarik dan berkualitas di sini. Jelajahi koleksi
   kami dan temukan penawaran terbaik untuk kebutuhan Anda.</p>
-  <button class="btn"><RouterLink to="/product">Belanja Sekarang</RouterLink></button>
+  <button class="button1"><RouterLink to="/product">Shop Now</RouterLink></button>
 </div>
 
 <div class="container">
@@ -63,5 +63,11 @@
   margin-left: 100px;
   margin-right: 100px;
 }
-
+.button1 {
+   background: linear-gradient(to right, #f7f8f8, #fcfdfd56);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 999px;
+}
 </style>
