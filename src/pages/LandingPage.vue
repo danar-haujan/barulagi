@@ -7,6 +7,14 @@
   <button class="button1"><RouterLink to="/product">Shop Now</RouterLink></button>
 </div>
 
+<div class="flex justify-center">
+  <video controls width="480" muted loop>
+    <source src="/video/thumbnail.mp4" type="video/mp4" /> 
+      Browser kamu tidak mendukung pemutaran video.
+  </video>
+</div>
+
+
 <div class="container">
   <div class="card">
     <p>🏆</p>
@@ -32,7 +40,7 @@
 
 <style scoped>
 
-  .judul { 
+.judul { 
   border: 1px solid #ddd; 
   border-radius: 10px; 
   padding: 14px; 
@@ -40,6 +48,7 @@
   text-align: center; 
   color: white;
 } 
+
 .card { 
   border: 1px solid #020000; 
   border-radius: 10px; 
@@ -59,15 +68,21 @@
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 2%;
 }
 .button1 {
-   background: linear-gradient(to right, #f7f8f8, #fcfdfd56);
+  background: linear-gradient(to right, #f7f8f8, #fcfdfd56);
   color: white;
   border: none;
   padding: 10px 20px;
   border-radius: 999px;
 }
+
+video { 
+  margin-top: 16px; 
+  border-radius: 10px; 
+
+
+}
+
 </style>

@@ -1,10 +1,11 @@
 @import './base.css';
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   padding: 2rem;
   font-weight: normal;
+  box-sizing: border-box;
 }
 
 a,
@@ -23,34 +24,31 @@ a,
 
 @media (min-width: 1024px) {
   body {
-    display: flex;
-    place-items: center;
+    margin: 0;
   }
 
   #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
   }
 }
 
-.judul { 
-  border: 1px solid #ddd; 
-  border-radius: 10px; 
-  padding: 14px; 
+.judul {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 14px;
   background: linear-gradient(to right, #2E75B6, #4A90E2);
-  text-align: center; 
+  text-align: center;
   color: white;
-} 
+}
 
-.txt{
+.txt {
+  font-weight: 700;
+  text-shadow: 2px 2px 5px rgba(2, 0, 0, 0.486);
+}
 
-font-weight: 700;  
-text-shadow: 2px 2px 5px rgba(2, 0, 0, 0.486); 
-      
-    }
-
-     .btn {
+.btn {
   background-color: #ffffff;
   border-radius: 15px;
   font-size: 16px;
@@ -60,6 +58,7 @@ text-shadow: 2px 2px 5px rgba(2, 0, 0, 0.486);
   text-decoration: none;
   font-family: 'Arial', sans-serif;
 }
-.btn:hover{
-  transform: 1,29scale(),
+
+.btn:hover {
+  transform: scale(1.05);
 }
