@@ -2,9 +2,12 @@
 import ProductCard from '../components/ProductCard.vue'
  
 const daftarProduk = [
-  { id: 1, nama: 'Belanja', harga: 75000, gambar: '/images/mengbelanja.jpg' },
-  { id: 2, nama: 'Adalah', harga: 35000, gambar: '/images/rusidmarah.jpg' },
-  { id: 3, nama: 'Kopdes', harga: 120000, gambar: '/images/kopdes.jpg' },
+  { id: 1, nama: 'AFFILICTION', harga: 1750000, gambar: '/images/affi.jpg' },
+  { id: 2, nama: 'TAPOUT', harga: 3500000, gambar: '/images/tapout.jpg' },
+  { id: 3, nama: 'TAPOUT', harga: 1500000, gambar: '/images/tapout2.jpg' },
+  { id: 4, nama: 'AFFILICTION', harga: 1200000, gambar: '/images/images.jpg' },
+  { id: 5, nama: 'AFFILICTION', harga: 1000000, gambar: '/images/pantekl.jpg' },
+  { id: 6, nama: 'PHB', harga: 10000000000000000000, gambar: '/images/phb.jpg' },
 ]
 
 </script>
